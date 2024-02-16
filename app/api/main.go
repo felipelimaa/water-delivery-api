@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"felipelimaa/water-delivery-api/app/internal"
+)
 
 func main() {
-	fmt.Println("Starting water-delivery-api")
+	internal.StartApi()
 }
